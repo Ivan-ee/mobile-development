@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Описание экрана -->
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Эта страница демонстрирует работу с API с использованием Retrofit для получения данных и Picasso для загрузки изображений. Список сущностей отображается с помощью RecyclerView для удобной навигации."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp" />
+
+    <!-- Контейнер для фрагмента -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/tv_description"
+        android:layout_above="@id/btn_menu" />
+
+    <!-- Кнопка перехода в меню -->
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Меню"
+        android:layout_margin="16dp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

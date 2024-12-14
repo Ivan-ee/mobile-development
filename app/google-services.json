@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437512933280",
+    "project_id": "seewhatican",
+    "storage_bucket": "seewhatican.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437512933280:android:d9d5e588005510da02dec5",
+        "android_client_info": {
+          "package_name": "com.example.seewhatican"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAF1qqrN6z7EvztxPbKTjrNzrWw0BlIP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menu_title" type="id" />
+    <item name="menu_description" type="id" />
+    <item name="api_button" type="id" />
+    <item name="room_button" type="id" />
+    <item name="profile_button" type="id" />
+    <item name="ai_button" type="id" />
+</resources>
